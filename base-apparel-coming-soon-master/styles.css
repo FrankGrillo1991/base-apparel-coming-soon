@@ -131,3 +131,23 @@ button:hover {
 .hero-mobile {
     display: none;
 }
+
+@media screen and (max-width: 375px) {
+    main {
+        padding-left: 2rem;
+        padding-right: 0;
+    }
+
+    .header-logo {
+        padding-left: 0;
+    }
+
+    input {
+        padding-left: 1rem;
+        padding-right: 12rem;
+    }
+
+    .error {
+        padding: 0;
+    }
+}
