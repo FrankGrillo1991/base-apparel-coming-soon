@@ -97,3 +97,8 @@ button {
     transition: transform 0.3s ease;
     filter: 100%;
 }
+
+button:hover {
+    transform: scale(1.2, 1.2);
+    filter: brightness(120%);
+}
