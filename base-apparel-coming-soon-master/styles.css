@@ -107,3 +107,27 @@ button:hover {
     width: 15px;
     height: auto;
 }
+
+.error {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: hsl(0, 93%, 68%);
+    display: none;
+}
+
+.error-icon {
+    position: absolute;
+    top: 0.8rem;
+    right: 7.6rem;
+    display: none;
+}
+
+.hero-desktop {
+    width: 100%;
+    height: auto;
+}
+
+.hero-mobile {
+    display: none;
+}
