@@ -102,3 +102,8 @@ button:hover {
     transform: scale(1.2, 1.2);
     filter: brightness(120%);
 }
+
+.arrow-icon {
+    width: 15px;
+    height: auto;
+}
